@@ -35,7 +35,7 @@
 \sectionspace
 \small{Applied Research Assistant @ Eaton RIT Cybersecurity SAFE Lab} \\
 \sectionspace
-\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\scriptsize{Looking for internships / coops starting Spring 2022 in security engineering, application security, penetration testing and red-teaming}
+\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\scriptsize{Looking for internships starting Summer 2022 in security engineering, application security, and offensive security}
 \end{flushleft}
 
 \end{minipage}
@@ -128,7 +128,7 @@ Hacking for Defense
 % \section{Research}
 
 \subsection{Research}
-Smartphones as Security Keys - A Usability Study \\
+Smartphones as Security Keys - A Usability Study \textbullet{} \\
 Electromagnetic Spectrum Information Sharing - Department of Defense | Joint Staff - J6 Cyber Directorate \\
 
 \sectionspace % Some whitespace after the section
@@ -188,7 +188,7 @@ Feb 2018 - CIB BNPP ISPL
 
 \section{Interests}
 homelab \textbullet{} lego \textbullet{} drones \textbullet{} teaching \\
-drones \textbullet{} home-automation
+writing \textbullet{} home-automation
 %----------------------------------------------------------------------------------------
 
 \end{minipage} % The end of the left column
@@ -213,9 +213,9 @@ drones \textbullet{} home-automation
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
 \item  Performed penetration testing on wide array of Eaton devices and services, reported critical findings, wrote comprehensive reports of the findings
-\item  Maintained and enhanced the lab's virtual infrastructure by deploying internal services using Proxmox \& VMware Vcenter
+\item  Developed custom tooling to automate various aspects of penetration testing and vulnerability assessment
+% \item  Maintained and enhanced the lab's virtual infrastructure by deploying internal services using Proxmox \& VMware Vcenter
 \item  Developed DVMA (Damn Vulnerable Modbus Application), a SCADA emulation platform to test Modbus penetration skills
-\item  Researched DNS based covert communication channels and mitigation techniques, SAML based Single Sign On using Shibboleth
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -225,14 +225,9 @@ drones \textbullet{} home-automation
 \runsubsection{BNP PARIBAS}
 
 
-\location{Software Engineer | Mar 2019 – Jul 2020 | Mumbai, India}
+\location{Software Engineer | Jun 2017 – Jul 2020 | Mumbai, India}
 \begin{tightitemize}
-\item Developed an in-house trade surveillance platform using Angular \& Spring thereby eliminating project licensing costs (of vendor tools) by 100%
 \item Led security overhaul of Regulatory Controls projects by implementing privileged access management using Cyberark, SSO implementation, integration with Group wide access governance system Sailpoint, synchronization with internal BNP eLDAP services
-\end{tightitemize}
-
-\location{Associate Software Engineer | Jun 2017 – Mar 2019 | Mumbai, India}
-\begin{tightitemize}
 \item Redesigned deprecated and non-compliant extranet file transfer mechanisms for cross region (US <-> EMEA) to modern protocols with auditing and access governance
 \item  Addressed core Actimize tool defects by reverse engineering it's TCP based application layer protocol and developed an interceptor to address defects, preventing a need for tool upgrade saving months of man-days
 \item  Reported major XSS \& authentication flaws in BNPP PeopeMine HR platform
@@ -247,10 +242,31 @@ drones \textbullet{} home-automation
 
 \section{PROJECTS \& COMPETITIONS}
 
-\runsubsection{OSSEC HIDS with ELK Visualization}
-\descript{|  Graduate Project}
+\runsubsection{Covert Channel using Github Reactions}
+% \descript{|  Graduate Project}
 
-\location{Apr 2021 - May 2021 | Rochester, New York}
+\location{Oct 2021 - Dec 2021 | \href{https://github.com/rajeevravindran/covert-github}{github.com/rajeevravindran/covert-github}}
+
+Designed and implemented a covert channel capable of exfiltrating data by covertly embedding bits in reaction emojis on Github comments to bypass censorship.
+
+\sectionspace % Some whitespace after the section
+
+
+
+\runsubsection{Google Rapid Response Training Platform}
+% \descript{|  Graduate Project}
+
+\location{Oct 2021 - Dec 2021 | \href{https://github.com/rajeevravindran/grr-training-platform}{github.com/rajeevravindran/grr-training-platform}}
+
+Developed a platform capable of automated deployment of a GRR server and 3 clients to practice live remote foreniscs, with GRR API integration to validate findings.
+
+\sectionspace % Some whitespace after the section
+
+
+\runsubsection{OSSEC HIDS with ELK Visualization}
+% \descript{|  Graduate Project}
+
+\location{Apr 2021 - May 2021 | \href{https://github.com/rajeevravindran/Attack-Defense-Exercise}{github.com/rajeevravindran/Attack-Defense-Exercise}}
 % Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
 
 Developed a SIEM that collects security alerts through OSSEC agents, ingests them through a custom Logstash pipeline into an Elastisearch node. Event metrics visualized by implementing custom Kibana dashboards
@@ -262,22 +278,23 @@ Developed a SIEM that collects security alerts through OSSEC agents, ingests the
 \runsubsection{Global Collegiate Penetration Testing Competition}
 \descript{|  1st Place}
 
-\location{Nov 2020 - Jan 2021 | Rochester, New York}
-Won against 15 universities in a penetration testing engagement on a sophisticated fictional energy company, delivering a comprehensive 97 page report with an executive summary, findings, compliance violations and potential mitigations
+\location{Nov 2020 - Jan 2022 | Rochester, New York}
+Won against 15 universities in a penetration testing engagement on a sophisticated fictional energy company, delivering a comprehensive 97 page report with an executive summary, findings, compliance violations and potential mitigations. Currently captain of 2021-2022 team.
 
 \sectionspace % Some whitespace after the section
 
 \runsubsection{WebAuthn Passwordless Authentication}
-\descript{|  Graduate Project}
-\location{Sep 2020 - Dec 2020 | Rochester, New York}
+% \descript{|  Graduate Project}
+
+\location{Sep 2020 - Dec 2020 | \href{https://github.com/rajeevravindran/webauthn}{github.com/rajeevravindran/webauthn}}
 Developed a web application implementing passwordless authentication using Webauthn protocol with client side implementation on Angular 6 \& server side implementation in Django
 
 \sectionspace % Some whitespace after the section
 
-\runsubsection{tshirtpartner.com}
-\descript{|  Developer \& Systems Lead}
-\location{Feb 2017 – Mar 2019 | Mumbai, India}
-Created and hosted a Django based e-commerce platform and implemented entire business logic, payment processing, CI / CD \& overall systems design
+% \runsubsection{tshirtpartner.com}
+% \descript{|  Developer \& Systems Lead}
+% \location{Feb 2017 – Mar 2019 | Mumbai, India}
+% Created and hosted a Django based e-commerce platform and implemented entire business logic, payment processing, CI / CD \& overall systems design
 %------------------------------------------------
 % Awards
 %------------------------------------------------

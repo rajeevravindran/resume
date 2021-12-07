@@ -1,0 +1,19 @@
+Applied Security Research Assistant
+Eaton Cybersecurity SAFE Lab
+ 
+ - Performed penetration testing on wide array of Eaton devices and services, reported critical findings, wrote comprehensive reports of the findings
+ - Developed custom tooling to automate various aspects of penetration testing and vulnerability assessment
+ - Maintained and enhanced the lab's virtual infrastructure by deploying internal services using Proxmox \& VMware Vcenter
+ - Developed DVMA (Damn Vulnerable Modbus Application), a SCADA emulation platform to test Modbus penetration skills
+
+
+ - Developed an in-house trade surveillance platform using Angular \& Spring thereby eliminating project licensing costs (of vendor tools) by 100%
+ - Led security overhaul of Regulatory Controls projects by implementing privileged access management using Cyberark, SSO implementation, integration with Group wide access governance system Sailpoint, synchronization with internal BNP eLDAP services
+ - Redesigned deprecated and non-compliant extranet file transfer mechanisms for cross region (US <-> EMEA) to modern protocols with auditing and access governance
+ - Addressed core Actimize tool defects by reverse engineering it's TCP based application layer protocol and developed an interceptor to address defects, preventing a need for tool upgrade saving months of man-days
+ - Reported major XSS \& authentication flaws in BNPP PeopeMine HR platform
+
+
+https://github.com/rajeevravindran/
+https://www.linkedin.com/in/rajeev-karuvath/
+https://rajeevkr.me
